@@ -1,0 +1,200 @@
+/* Mulish font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Mulish:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+}
+/* Navigason
+.header-nav{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .name-logo{
+    display: flex;
+    align-items: center;
+}
+.nav .name-logo .logo{
+    width: 3rem;
+    height: 3.5625rem;
+}
+.nav .name-logo .web-name{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nav .name-logo .web-name .world{
+    color: #FF5400;
+}
+.nav-content{
+    display: flex;
+}
+.nav-content li{
+    list-style: none;
+}
+.nav-content li a{
+    text-decoration: none;
+}
+.nav-content li .nav-home{
+    color: #FF5400;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.nav-content li .nav-btns{
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-left: 2.75rem;
+} */
+
+/* Banner */
+.explore-container{
+    max-width: 73.125rem;
+    max-height: 31.25rem;
+    margin: 0 auto;
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    text-align: center;
+}
+.explore-container .explore-titel{
+    padding-top: 6.625rem;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.explore-container .explore-text{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.explore-container .int-conteiner {
+    background: rgba(92, 39, 39, 0.3);
+    padding-bottom: 3.4375rem;
+    justify-content: center;
+    display: flex;
+    
+}
+.explore-container .int-conteiner .int{
+    width: 10.875rem;
+    height: 3.25rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    border: 0;
+    /* background: rgba(92, 39, 39, 0.3); */
+}
+.explore-container .int-conteiner .header-btn{
+    color: #FFF;
+    background: #FF5400;
+}
+.explore-container .int-conteiner .find-logo{
+    width: 20px;
+    height: 20px;
+}
+/* popular-tours */
+main{
+    max-width: 1170px;
+    margin-top: 6.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.popular-tour-titel{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.popular-tour-discripson{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+.popular-tours ul li{
+    margin-bottom: 1.25rem;
+}
+.read-btn{
+    width: 10.875rem;
+    height: 3.25rem;
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: 2rem;
+    background: #FF5400;
+    border: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* Choose Your Destination */
+article{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.destination{
+    max-width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+}
+.viwe-pic .row{
+    display: flex;
+    
+}
+.viwe-pic .row img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:590px) {
+    /*  */
+    .explore-container .explore-titel{
+        font-size: 22px;
+        padding-top: 35px;
+    }
+    .int-conteiner {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 23px;
+        padding-bottom: 55px;
+    }
+    .explore-container .int-conteiner .int{
+        margin-bottom: 10px;
+        width: 255px;
+    }
+    /* main */
+    .main-div{
+        
+        flex-direction: column;
+    }
+    .read-btn{
+        margin-top: 12px;
+        margin-bottom: 16px;
+    }
+    .popular-place-img{
+        padding: 0 10px;
+    }
+    .popular-place-img .pic-hil{
+        width: 100%;
+    }
+    .viwe-pic .row{
+        flex-direction: column;
+        margin-right: 5px;
+    }
+    .viwe-pic .row img{
+        margin: 10px 10px 0 6px;
+    }
+    
+}
