@@ -132,7 +132,7 @@ main{
     font-weight: 800;
 }
 /* Choose Your Destination */
-article{
+.destination-articale{
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -154,8 +154,57 @@ article{
     height: 100%;
     margin: 10px;
 }
-
-
+/* Why Choose Us */
+.why{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.why .why-titel{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.why .why-desripson{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+.art{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.three-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+}
+.hwb{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 35.8125rem;
+    padding: 2rem;
+}
+.hwb .hwb-pic{
+    /* width: 64px;
+    height: 64px; */
+ 
+}
+.defrent{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#center{
+    margin: 0 auto;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
 
 /* Responsive */
 @media screen and (max-width:590px) {
@@ -185,16 +234,46 @@ article{
     }
     .popular-place-img{
         padding: 0 10px;
+
     }
     .popular-place-img .pic-hil{
         width: 100%;
     }
     .viwe-pic .row{
+        width: 100%;
         flex-direction: column;
         margin-right: 5px;
     }
     .viwe-pic .row img{
         margin: 10px 10px 0 6px;
     }
-    
+    .three-box{
+        margin-left: 32px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hwb{
+        width: 31.0625rem;
+        border-radius: 16px;
+        margin-left: 8px;
+        border-radius: 16px;
+        width: 434px;
+        padding-top: 30px;
+        padding-left: 33px;
+        padding-right: 17px;
+    }
+    .hwb .defrent{
+        border-radius: 16px;
+        width: 25rem;
+        padding: 13px;
+        padding-left: 40px;
+    }
+    .hwb #center{
+        border-radius: 16px;
+        width: 434px;
+        padding-top: 30px;
+        padding-left: 33px;
+        padding-right: 17px;
+        margin-left: 32px;
+    }
 }
