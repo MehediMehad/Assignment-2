@@ -184,11 +184,6 @@ main{
     width: 35.8125rem;
     padding: 2rem;
 }
-.hwb .hwb-pic{
-    /* width: 64px;
-    height: 64px; */
- 
-}
 .defrent{
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -273,8 +268,6 @@ main{
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-}
-.from-three {
 }
 .from-three .from-in{
     width: 23rem;
